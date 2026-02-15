@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # Load Dataset
 # -------------------------
 def load_data():
-    df = pd.read_csv("../data/df_file.csv")
+    df = pd.read_csv("/Users/pragnasree/Desktop/Github/Sports-Vs-Politics-Classifier/Data/df_file.csv")
 
     # Keep only labels 0 and 1
     df = df[df["Label"].isin([0, 1])]
