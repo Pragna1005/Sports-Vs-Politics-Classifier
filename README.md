@@ -8,7 +8,7 @@ The goal of this project is to compare multiple feature representation technique
 
 ## 📌 Project Overview
 
-Text classification is a core task in Natural Language Processing (NLP). In this project:
+Text classification is a core task in Natural Language Understanding (NLU). In this project:
 
 - News articles are classified as **SPORTS** or **POLITICS**
 - Three feature engineering techniques are compared:
