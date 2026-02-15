@@ -1,5 +1,4 @@
 # Sports-Vs-Politics-Classifier
-# 📰 Sports vs Politics Text Classification
 
 This project implements a machine learning system that classifies news articles into **Sports** or **Politics** categories.
 
@@ -23,7 +22,7 @@ Text classification is a core task in Natural Language Processing (NLP). In this
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 The dataset (`df_file.csv`) originally contained five categories.  
 For this project, only two were selected:
@@ -41,7 +40,7 @@ The dataset contains full news articles, making the classification realistic and
 
 ---
 
-## 🧹 Preprocessing
+## Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -53,15 +52,15 @@ No aggressive stemming or lemmatization was applied to preserve contextual meani
 
 ---
 
-## 🔢 Feature Engineering Techniques
+## Feature Engineering Techniques
 
-### 1️⃣ Bag of Words (BoW)
+### Bag of Words (BoW)
 Represents documents as raw word frequency vectors.
 
-### 2️⃣ TF-IDF
+### TF-IDF
 Weights words based on importance across documents.
 
-### 3️⃣ TF-IDF + Bigrams
+### TF-IDF + Bigrams
 Captures both single words and two-word phrases such as:
 - "prime minister"
 - "world cup"
@@ -86,7 +85,7 @@ The following models were trained and evaluated:
 | TF-IDF | 1.00 | 0.98 | 1.00 |
 | TF-IDF + Bigrams | 1.00 | 0.99 | 1.00 |
 
-### 🔎 Observations
+### Observations
 
 - TF-IDF performs better than simple Bag of Words.
 - Including bigrams improves contextual understanding.
@@ -94,11 +93,3 @@ The following models were trained and evaluated:
 - The dataset appears highly separable, leading to near-perfect classification.
 
 ---
-
-## ⚙️ How to Run the Project
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/sports-vs-politics-classifier.git
-cd sports-vs-politics-classifier
